@@ -97,8 +97,8 @@ Settings
 
 To change this settings, edit your ``~/.vimrc``: ::
 
-    " Disable pylint checking every save
-    let g:pymode_lint_write = 0
+    " Enable pylint checking every save
+    let g:pymode_lint_write = 1
 
     " Set key 'R' for run python code
     let g:pymode_run_key = 'R'

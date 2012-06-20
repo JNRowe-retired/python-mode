@@ -57,7 +57,7 @@ if !pymode#Default("g:pymode_lint", 1) || g:pymode_lint
     let g:qf_list = []
 
     " OPTION: g:pymode_lint_write -- bool. Check code every save.
-    call pymode#Default("g:pymode_lint_write", 1)
+    call pymode#Default("g:pymode_lint_write", 0)
 
     " OPTION: g:pymode_lint_onfly -- bool. Check code every save.
     call pymode#Default("g:pymode_lint_onfly", 0)

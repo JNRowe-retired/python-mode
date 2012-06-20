@@ -207,7 +207,7 @@ See also: |'pymode_lint_ignore'|, |'pymode_lint_select'|
 ------------------------------------------------------------------------------
                                                            *'pymode_lint_write'*
 Values: 0 or 1.
-Default: 1.
+Default: 0.
 
 If this option is set to 0 then pylint auto check every save is disabled.
 
