@@ -244,21 +244,21 @@ if !pymode#Default("g:pymode_rope", 1) || g:pymode_rope
     endfunction "}}}
 
     " Rope menu
-    menu <silent> Rope.Autoimport :RopeAutoImport<CR>
+    menu <silent> &Rope.&Autoimport :RopeAutoImport<CR>
     menu <silent> Rope.ChangeSignature :RopeChangeSignature<CR>
-    menu <silent> Rope.CloseProject :RopeCloseProject<CR>
+    menu <silent> Rope.&CloseProject :RopeCloseProject<CR>
     menu <silent> Rope.GenerateAutoImportCache :RopeGenerateAutoimportCache<CR>
-    menu <silent> Rope.ExtractVariable :RopeExtractVariable<CR>
-    menu <silent> Rope.ExtractMethod :RopeExtractMethod<CR>
+    menu <silent> Rope.Extract&Variable :RopeExtractVariable<CR>
+    menu <silent> Rope.Extract&Method :RopeExtractMethod<CR>
     menu <silent> Rope.Inline :RopeInline<CR>
     menu <silent> Rope.IntroduceFactory :RopeIntroduceFactory<CR>
-    menu <silent> Rope.FindFile :RopeFindFile<CR>
-    menu <silent> Rope.OpenProject :RopeOpenProject<CR>
+    menu <silent> Rope.&FindFile :RopeFindFile<CR>
+    menu <silent> Rope.&OpenProject :RopeOpenProject<CR>
     menu <silent> Rope.Move :RopeMove<CR>
     menu <silent> Rope.MoveCurrentModule :RopeMoveCurrentModule<CR>
     menu <silent> Rope.ModuleToPackage :RopeModuleToPackage<CR>
     menu <silent> Rope.Redo :RopeRedo<CR>
-    menu <silent> Rope.Rename :RopeRename<CR>
+    menu <silent> Rope.&Rename :RopeRename<CR>
     menu <silent> Rope.RenameCurrentModule :RopeRenameCurrentModule<CR>
     menu <silent> Rope.Restructure :RopeRestructure<CR>
     menu <silent> Rope.Undo :RopeUndo<CR>
