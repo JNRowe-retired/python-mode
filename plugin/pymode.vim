@@ -43,10 +43,8 @@ python << EOF
 import sys, vim, os
 
 curpath = vim.eval("getcwd()")
-libpath = os.path.join(os.path.dirname(os.path.dirname(
-    vim.eval("expand('<sfile>:p')"))), 'pylibs')
 
-sys.path = [libpath, curpath] + vim.eval("g:pymode_paths") + sys.path
+sys.path = [curpath, ] + vim.eval("g:pymode_paths") + sys.path
 EOF
 
 endif
