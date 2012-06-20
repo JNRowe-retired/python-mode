@@ -305,7 +305,7 @@ If this option is set to 0 then virtualenv support is disabled.
 ------------------------------------------------------------------------------
                                                     *'pymode_utils_whitespaces'*
 Values: 0 or 1.
-Default: 1.
+Default: 0.
 
 Autoremove unused whitespaces
 

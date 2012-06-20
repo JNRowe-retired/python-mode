@@ -271,6 +271,6 @@ endif
 call pymode#Default("g:pymode_folding", 1)
 
 " OPTION: g:pymode_utils_whitespaces -- bool. Remove unused whitespaces on save
-call pymode#Default("g:pymode_utils_whitespaces", 1)
+call pymode#Default("g:pymode_utils_whitespaces", 0)
 
 " vim: fdm=marker:fdl=0

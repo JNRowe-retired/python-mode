@@ -273,7 +273,7 @@ Default values: ::
     let g:pymode_breakpoint_key = '<leader>b'
 
     " Autoremove unused whitespaces
-    let g:pymode_utils_whitespaces = 1
+    let g:pymode_utils_whitespaces = 0
 
     " Set default pymode python indent options
     let g:pymode_options_indent = 1
